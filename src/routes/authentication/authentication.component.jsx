@@ -1,9 +1,9 @@
 import { signInWithGooglePopup, createUserDocumentFromAuth } from '../../utils/firebase/firebase.utils'
 import SignUpForm from '../../components/sign-up-form/sign-up-form.component'
 
-import './sign-in.styles.scss'
+// import './sign-in.styles.scss'
 
-const SignIn = () => {
+const Authentication = () => {
 
     const logGoogleUser = async () => {
         const { user } = await signInWithGooglePopup()
@@ -19,4 +19,4 @@ const SignIn = () => {
     )
 }
 
-export default SignIn
+export default Authentication
