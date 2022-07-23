@@ -1,10 +1,11 @@
 * {
   box-sizing: border-box;
-  font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 body {
   margin: 0;
+  padding: 20px 40px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
