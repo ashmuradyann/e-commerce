@@ -3,10 +3,42 @@
     grid-template-columns: repeat(4, 1fr);
     column-gap: 20px;
     row-gap: 50px;
+    justify-content: center;
+    align-items: center;
 
+    h2 {
+        animation: fade 2s infinite;
+
+        span {
+            opacity: 1;
+            animation: fade .9s infinite;
+
+            &:first-child {
+                animation-delay: -.3s;
+            }
+
+            &:last-child {
+                animation-delay: .3s;
+            }
+        }
+    }
 }
 
 .category-title {
     font-size: 38px;
     margin-bottom: 25px;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }
