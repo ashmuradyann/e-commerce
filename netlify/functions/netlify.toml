@@ -153,7 +153,7 @@
   # functions, to deploy. This is relative to the base directory
   # if one has been set, or the root directory if
   # a base hasn’t been set.
-  directory = "functions/"
+  directory = "netlify/functions/"
 
 # Use [dev] to set configuration overrides for local 
 # development environments run using Netlify Dev - except 
