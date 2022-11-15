@@ -1,7 +1,6 @@
 import { React, useState } from 'react'
 import { useDispatch } from 'react-redux'
 
-import { signInAuthUserWithEmailAndPassword } from '../../utils/firebase/firebase.utils'
 import { googleSignInStart, emailSignInStart } from '../../store/user/user.action'
 
 import FormInput from '../form-input/form-input.component'
